@@ -50,3 +50,34 @@ print(names_and_numbers)
 # The remove() method deletes only the first occurrence of the value you specify. If there’s
 # a possibility the value appears more than once in the list, you’ll need to use a loop to
 # determine if all occurrences of the value have been removed
+
+'''sorting'''
+sort_this_list = ["one", "two", "three", "four"]
+print("original list to sort: " + str(sort_this_list))
+sort_this_list.sort()
+print("asc sorted list: "+ str(sort_this_list))
+
+#in reverse order
+sort_this_list = ["one", "two", "three", "four"]
+print("original list to sort: " + str(sort_this_list))
+sort_this_list.sort(reverse=True)
+print("desc reversed sorted list: "+ str(sort_this_list))
+
+#temp sort the list
+sort_this_list = ["one", "two", "three", "four"]
+print("original list to sort: " + str(sort_this_list))
+print("temp sorted list" + str(sorted(sort_this_list)))
+print("temp sorted desc reverse list" + str(sorted(sort_this_list, reverse=True)))
+print("original list after temp sort: " + str(sort_this_list))
+
+#printing a list in reverse order (not desc or asc)
+sort_this_list = ["one", "two", "three", "four"]
+print("original list to sort: " + str(sort_this_list))
+sort_this_list.reverse()
+print("reversed unsorted list: " + str(sort_this_list))
+
+#length of a list
+sort_this_list = ["one", "two", "three", "four"]
+print("original list to sort: " + str(sort_this_list))
+print("length of the list: " + str(len(sort_this_list)))
+print("last item of the list: " + sort_this_list[-1])
