@@ -71,4 +71,12 @@ print("value of popped item at '1' position: " + str(popped_at_any_position)) #h
 # and not use that item in any way, use the del statement; if you want to use an
 # item as you remove it, use the pop() method
 
-
+'''remove() item by value'''
+removed_item = 111
+names_and_numbers.remove(111)
+print(str(removed_item) + " is removed from " + str(names_and_numbers))
+print(names_and_numbers)
+'''NOTE abt remove()'''
+# The remove() method deletes only the first occurrence of the value you specify. If there’s
+# a possibility the value appears more than once in the list, you’ll need to use a loop to
+# determine if all occurrences of the value have been removed
