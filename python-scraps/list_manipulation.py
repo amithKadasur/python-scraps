@@ -81,3 +81,20 @@ sort_this_list = ["one", "two", "three", "four"]
 print("original list to sort: " + str(sort_this_list))
 print("length of the list: " + str(len(sort_this_list)))
 print("last item of the list: " + sort_this_list[-1])
+
+'''slice'''
+# Don’t worry about the details in this example for now. Basically, if you’re trying to
+# work with a copy of a list and you see unexpected behavior, make sure you are copying
+# the list using a slice, as we did in the first example.
+
+my_foods = ["dal", "rice", "koorma"]
+friend_foods = my_foods  #to connect the new variable friend_foods to the list that is already contained in
+                        # my_foods, so now both variables point to the same list
+friend_foods.append("bhindi")
+print(friend_foods)
+print(my_foods)
+
+friend_foods = my_foods[:] #use slice to copy list
+friend_foods.append("masala")
+print(friend_foods)
+print(my_foods)
