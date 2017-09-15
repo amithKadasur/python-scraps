@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6981231-ddc7-4742-854e-eedcde256afa" name="Default" comment="getting started">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python-scraps/nesting_examples.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python-scraps/list_manipulation.py" afterPath="$PROJECT_DIR$/python-scraps/list_manipulation.py" />
-    </list>
+    <list default="true" id="b6981231-ddc7-4742-854e-eedcde256afa" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +35,8 @@
       <file leaf-file-name="nesting_examples.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python-scraps/nesting_examples.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -302,6 +298,14 @@
       <option name="presentableId" value="Default" />
       <updated>1504628780082</updated>
     </task>
+    <task id="LOCAL-00001" summary="inputs and more">
+      <created>1505482508294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505482508294</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -334,7 +338,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="getting started" />
-    <option name="LAST_COMMIT_MESSAGE" value="getting started" />
+    <MESSAGE value="inputs and more" />
+    <option name="LAST_COMMIT_MESSAGE" value="inputs and more" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -400,8 +405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python-scraps/nesting_examples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
