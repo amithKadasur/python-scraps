@@ -98,3 +98,11 @@ friend_foods = my_foods[:] #use slice to copy list
 friend_foods.append("masala")
 print(friend_foods)
 print(my_foods)
+
+'''loops'''
+greetings = ["hello", "hi", "hallo", "namaskar"]
+for greeting in greetings:
+    if greeting == "namaskar":
+        print(greeting.title())
+    else:
+        print(greeting)
